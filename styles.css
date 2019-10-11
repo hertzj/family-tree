@@ -1,0 +1,83 @@
+body {
+    background-color: deepskyblue;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#generations, #genHolderOne, #genHolderTwo, #genHolderThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#formContainer {
+    display: flex;
+    border: 3px solid black;
+    border-radius: 3rem;
+    height: 100px;
+    padding-top: 2rem;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+input, label {
+    margin-top: 1rem;
+    margin-left: 8px;
+}
+
+button {
+    margin-top: 8px;
+    width: 250px;
+}
+
+.generation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3px;
+}
+
+.familyMember {
+    display: flex;
+    flex-direction: column;
+}
+
+.familyMemberIcon {
+    background-color: fuchsia;
+    width: 150px;
+    height: 150px;
+    border-radius: 20rem;
+}
+
+.selected {
+    border: 2px solid black;
+}
+
+h2 {
+    color: white
+}
