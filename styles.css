@@ -65,6 +65,7 @@ button {
 .familyMember {
     display: flex;
     flex-direction: column;
+    margin-left: 1rem;
 }
 
 .familyMemberIcon {
@@ -72,6 +73,13 @@ button {
     width: 150px;
     height: 150px;
     border-radius: 20rem;
+}
+
+.familyMemberInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .selected {

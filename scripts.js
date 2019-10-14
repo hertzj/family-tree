@@ -126,6 +126,7 @@ button.addEventListener('click', ev => {
         })
     
         const famMemberInfo = document.createElement('div');
+        famMemberInfo.classList.add('familyMemberInfo');
         famMemberInfo.innerHTML = `<h3>${name}</h3><p>${age} yrs</p>`;
     
         famMemDiv.appendChild(famMemberIcon);
@@ -174,6 +175,7 @@ button.addEventListener('click', ev => {
         })
     
         const famMemberInfo = document.createElement('div');
+        famMemberInfo.classList.add('familyMemberInfo');
         famMemberInfo.innerHTML = `<h3>${name}</h3><p>${age} yrs</p>`;
     
         famMemDiv.appendChild(famMemberIcon);
@@ -222,6 +224,7 @@ button.addEventListener('click', ev => {
         })
     
         const famMemberInfo = document.createElement('div');
+        famMemberInfo.classList.add('familyMemberInfo');
         famMemberInfo.innerHTML = `<h3>${name}</h3><p>${age} yrs</p>`;
     
         famMemDiv.appendChild(famMemberIcon);
