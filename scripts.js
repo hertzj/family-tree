@@ -101,7 +101,8 @@ button.addEventListener('click', ev => {
         firstGen.id = 'firstGen';
         holderOne.appendChild(firstGen)
         
-        family = new FamilyTree(name);
+        family = new FamilyTree(name); // better to declare as _family so that
+        // it is clear I know what I am doing here
         const famMemDiv = document.createElement('div');
         famMemDiv.classList.add('familyMember');
         famMemDiv.dataset.generation = 'firstGen';
